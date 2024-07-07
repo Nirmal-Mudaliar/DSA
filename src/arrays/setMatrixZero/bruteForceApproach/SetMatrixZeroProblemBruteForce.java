@@ -1,4 +1,4 @@
-package arrays.setMatrixZero.bruteForce;
+package arrays.setMatrixZero.bruteForceApproach;
 
 import java.util.ArrayList;
 
