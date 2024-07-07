@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class SetMatrixZeroProblemBruteForce {
     // TC: O(n*m)*O(n+m) + O(n*m)
+    // SC: O(1)
     public ArrayList<ArrayList<Integer>> zeroMatrix(ArrayList<ArrayList<Integer>> matrix, int n, int m) {
         for (int i = 0; i < n; i++) {
             for(int j = 0; j < m; j++) {
