@@ -11,4 +11,10 @@ public class Utils {
             System.out.println();
         }
     }
+
+    public static <T> void printArray(ArrayList<T> list) {
+        for (T each: list) {
+            System.out.print(STR."\{each} ");
+        }
+    }
 }
