@@ -1,4 +1,4 @@
-package recursion.sumOfAllSubSets.optimalApproach;
+package recursion.allSubsets;
 
 import java.util.ArrayList;
 
