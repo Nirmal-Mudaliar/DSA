@@ -1,10 +1,11 @@
 package utils;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Utils {
-    public static <T> void print2DArray(ArrayList<ArrayList<T>> matrix) {
-        for (ArrayList<T> row: matrix) {
+    public static <T> void print2DArray(List<? extends List<T>> matrix) {
+        for (List<T> row: matrix) {
             for (T element: row) {
                 System.out.print(STR."\{element} ");
             }
